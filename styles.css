@@ -1,0 +1,97 @@
+.firstcontainor{
+    background-color:#E4F9F5;
+    border: none;
+    padding-top: 50px;
+}
+h1{
+    margin-top: 0px;
+    font-family: 'Sacramento',cursive;
+    font-size: 4.625rem;
+    color: #66BFBF;
+}
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* or you can simply write margin:0 */
+    text-align: center;
+    font-family: 'Merriweather',serif;
+    font-size: 200%;
+    background-color:#E4F9F5;
+}
+#a-student
+{
+    margin-bottom: 0px;
+    font-size: 2.5rem;
+    color: #66BFBF;
+}
+.bottom-cloud{
+    position: absolute;
+    top:200px;
+    left: 430px;
+}
+.top-cloud{
+    position: relative;
+    border-top: 50px;
+    left: 230px;
+}
+
+.hello
+{
+    width:50%;
+    font-size: 1.5rem;  
+    margin: auto;
+}
+#profile-pic
+{
+    width:25%;
+}
+#python-img
+{
+    width:25%;
+    float: left;
+    margin-right: 30px;
+}
+.web-dev
+{
+    width:25%;
+    float: right; 
+    margin-left: 30px;
+    /* float is used to wrap the text heading and images together */
+}
+.skill-row1
+{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.skill-row2
+{
+    width: 50%;
+    margin: 100px auto 150px auto;
+    text-align: left;
+}
+.web-skill-desc
+{
+    font-size: 1rem;
+    line-height: 2;
+    /* clear property will get the desc back to its original position */
+}
+hr
+{
+    border-style: none; 
+    border-top-style: dotted; 
+    border-color: grey;
+    border-width:5px ;
+    width: 5%;
+    margin: auto;
+}
+.btn
+{
+    line-height: 3;
+    font-size: 1rem;
+}
+.footer-link
+{
+    font-size: 1.2rem;
+}
