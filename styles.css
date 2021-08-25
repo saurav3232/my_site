@@ -17,7 +17,6 @@ body{
     text-align: center;
     font-family: 'Merriweather',serif;
     font-size: 200%;
-    background-color:#E4F9F5;
 }
 #a-student
 {
@@ -27,7 +26,7 @@ body{
 }
 .bottom-cloud{
     position: absolute;
-    top:200px;
+    top:215px;
     left: 430px;
 }
 .top-cloud{
@@ -45,6 +44,7 @@ body{
 #profile-pic
 {
     width:25%;
+    margin-top: 50px;
 }
 #python-img
 {
@@ -122,7 +122,9 @@ hr
     display: inline-block;
     cursor: pointer;
     text-align: center;
- }
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
  
  .BUTTON_DRG:hover {
     border: solid #337FED 0;
@@ -137,3 +139,14 @@ hr
     border-radius: 24px;
     text-decoration: none;
  }
+ .bottom-container
+ {
+    background-color: #66BFBF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+a:hover
+{
+    color: azure;
+    
+}
